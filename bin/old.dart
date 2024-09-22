@@ -12,16 +12,17 @@ void main() {
   // Printing the values of the variables to the console.
     print("Hello, $name! You are $age years old.");
 
+    // ignore: dead_code
     if (isStudent) {
       print("You are currently a student.");
     } else {
       print("You are not currently a student.");
-    };
+    }
     if (age >= 18) {
     print("You are eligible to vote.");
   } else {
     print("You are not eligible to vote.");
-  }; 
+  }
 
   
 
@@ -34,9 +35,10 @@ void main() {
     print("You also like the color $favColor and your lucky number is $luckyNum.");
       if (likePizza) {
         print("You do like pizza.");
+      // ignore: dead_code
       } else {
           print("You hate pizza");
-        };
+        }
 
           
   int num1 = 12;
