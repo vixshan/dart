@@ -1,6 +1,27 @@
+/// This is the main function that demonstrates various Dart language features.
+/// 
+/// The following features are covered:
+/// - Printing to the console
+/// - Basic arithmetic operations
+/// - Variable declaration and initialization
+/// - String concatenation and interpolation
+/// - Multiline strings
+/// - Boolean variables
+/// - Type inference
+/// - Type annotations
+/// - Dynamic variables
+/// - Final and const variables
+/// - Arithmetic, relational, logical, and bitwise operators
+/// - Prefix and postfix increment/decrement operators
+/// - Type test operators
+/// - Assignment operators
+/// - Conditional statements
+/// - Temperature conversion from Fahrenheit to Celsius
+///
+/// The code includes examples and explanations for each feature.
 //import 'dart:io';
 
-// ignore_for_file: unnecessary_type_check
+// ignore_for_file: unnecessary_type_check, dangling_library_doc_comments
 
 void main() {
   //printing hello world
@@ -13,7 +34,6 @@ void main() {
 // readLineSync() method (function) reads a line from the input.
   print("Hello + ${stdin.readLineSync()}");
 */
-
 
 /* challenge:
 In this challenge, your task is to display some text. The text you have to display is a famous movie quote.
@@ -308,7 +328,6 @@ multiline string""";
   // bitwise right shift: shifts the bits to the right
   // 101 >> 1 is 10 which is 2
   print(num1h >> 1); // prints 2
-
 
 /*
 You are given a variable, check, which stores an integer value. 
