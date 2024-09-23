@@ -308,4 +308,34 @@ multiline string""";
   // bitwise right shift: shifts the bits to the right
   // 101 >> 1 is 10 which is 2
   print(num1h >> 1); // prints 2
+
+
+/*
+You are given a variable, check, which stores an integer value. 
+You have to create a variable compareCheck which checks;
+if the value stored in check is less than 75 and greater than or equal to 8. 
+The result should be true if it is between 8 and 75, and false if it isn’t.
+*/
+
+  var check = 3;
+
+  var compareCheck = check < 75 && check >= 8;
+
+  if (compareCheck) {
+    print("the number $check is less than 75 and greater than or equal to 8");
+  } else {
+    print("the number $check is either not < 75 nor >= 8, or both");
+  }
+
+  /*
+You are given a variable, fahrenheit, which stores a temperature in degrees Fahrenheit. 
+You have to create a variable, celsius, which converts the temperature stored in fahrenheit to degrees Celsius.
+
+To convert temperature from degrees Fahrenheit to degrees Celsius, you first need to subtract 32 from the temperature, 
+then multiply it by 5, followed by a division by 9.
+*/
+
+  num fah = 50;
+  num cel = (fah - 32) * 5 / 9;
+  print("the temperature in celcius is $cel");
 }
